@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload File</title>
+</head>
+<body>
+     <!-- This is a form to upload a file -->
+    <h1>Upload a file</h1>
+    <form action="/upload/" method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        <p>Email:<input type="email" name="emailid" value={{ email }} readonly></p>
+       <p><input type="file" name="json_file" id="json_file"></p>
+       <input type="hidden" name="file_path" id="file_path">
+        <input type="submit" value="Upload">
+       
+    </form>
+
+</body>
+</html>
+
+
+
+

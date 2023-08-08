@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .success-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tick-mark {
+    font-size: 80px;
+    color: #008000;
+    animation: blink 1s infinite;
+  }
+
+  .message {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+  }
+
+  @keyframes blink {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }

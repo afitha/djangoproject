@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload File</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsonwebtoken/8.5.1/jsonwebtoken.min.js"></script>
+    
+</head>
+<body>
+    <h1>Registration</h1>
+    <form id="registrationForm" action="usrreg" method="post">
+        {% csrf_token %}
+        <p>Name: <input type="text" name="name"></p>
+        <p>Email: <input type="email" name="email" required></p>
+        <p>Phone: <input type="text" name="phone"></p>
+        <p>Password: <input type="password" name="password" required></p>
+        <input type="submit" value="Register"><br>
+    </form>
+   
+</body>
+</html>
+

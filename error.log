@@ -1,0 +1,2531 @@
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+HTTPConnectionPool(host='ec2-43-205-15-58.ap-south-1.compute.amazonaws.com', port=9864): Max retries exceeded with url: /webhdfs/v1/cv/SweetySayin.pdf?op=CREATE&user.name=ubuntu&namenoderpcaddress=ec2-43-205-15-58.ap-south-1.compute.amazonaws.com:9000&createflag=&createparent=true&overwrite=false (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002157E941DE0>, 'Connection to ec2-43-205-15-58.ap-south-1.compute.amazonaws.com timed out. (connect timeout=None)'))
+Traceback (most recent call last):
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\connection.py", line 244, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1283, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1329, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1038, in _send_output
+    self.send(msg)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 976, in send
+    self.connect()
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\connection.py", line 179, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x000002157E941DE0>, 'Connection to ec2-43-205-15-58.ap-south-1.compute.amazonaws.com timed out. (connect timeout=None)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\requests\adapters.py", line 487, in send
+    resp = conn.urlopen(
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='ec2-43-205-15-58.ap-south-1.compute.amazonaws.com', port=9864): Max retries exceeded with url: /webhdfs/v1/cv/SweetySayin.pdf?op=CREATE&user.name=ubuntu&namenoderpcaddress=ec2-43-205-15-58.ap-south-1.compute.amazonaws.com:9000&createflag=&createparent=true&overwrite=false (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002157E941DE0>, 'Connection to ec2-43-205-15-58.ap-south-1.compute.amazonaws.com timed out. (connect timeout=None)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Afitha\internpro\userinfo\register\views.py", line 277, in upload_view
+    response = requests.put(url, data=file, headers=headers)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\requests\api.py", line 130, in put
+    return request("put", url, data=data, **kwargs)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\requests\adapters.py", line 508, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='ec2-43-205-15-58.ap-south-1.compute.amazonaws.com', port=9864): Max retries exceeded with url: /webhdfs/v1/cv/SweetySayin.pdf?op=CREATE&user.name=ubuntu&namenoderpcaddress=ec2-43-205-15-58.ap-south-1.compute.amazonaws.com:9000&createflag=&createparent=true&overwrite=false (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002157E941DE0>, 'Connection to ec2-43-205-15-58.ap-south-1.compute.amazonaws.com timed out. (connect timeout=None)'))
+Internal Server Error: /upload/
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTPConnectionPool(host='http', port=80): Max retries exceeded with url: //ec2-3-7-42-28.ap-south-1.compute.amazonaws.com:9864/webhdfs/v1/cv/SweetySayin.pdf?op=CREATE&user.name=ubuntu&namenoderpcaddress=ec2-43-205-15-58.ap-south-1.compute.amazonaws.com:9000&createflag=&createparent=true&overwrite=false (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B37A80ADD0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+Traceback (most recent call last):
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\util\connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\connection.py", line 244, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1283, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1329, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1038, in _send_output
+    self.send(msg)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 976, in send
+    self.connect()
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000002B37A80ADD0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\requests\adapters.py", line 487, in send
+    resp = conn.urlopen(
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='http', port=80): Max retries exceeded with url: //ec2-3-7-42-28.ap-south-1.compute.amazonaws.com:9864/webhdfs/v1/cv/SweetySayin.pdf?op=CREATE&user.name=ubuntu&namenoderpcaddress=ec2-43-205-15-58.ap-south-1.compute.amazonaws.com:9000&createflag=&createparent=true&overwrite=false (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B37A80ADD0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Afitha\internpro\userinfo\register\views.py", line 284, in upload_view
+    response = requests.put(url, data=file, headers=headers)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\requests\api.py", line 130, in put
+    return request("put", url, data=data, **kwargs)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\requests\adapters.py", line 520, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='http', port=80): Max retries exceeded with url: //ec2-3-7-42-28.ap-south-1.compute.amazonaws.com:9864/webhdfs/v1/cv/SweetySayin.pdf?op=CREATE&user.name=ubuntu&namenoderpcaddress=ec2-43-205-15-58.ap-south-1.compute.amazonaws.com:9000&createflag=&createparent=true&overwrite=false (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B37A80ADD0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+Internal Server Error: /upload/
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+HTTPConnectionPool(host='ec2-3-7-42-28.ap-south-1.compute.amazonaws.com', port=9864): Max retries exceeded with url: /webhdfs/v1/cv/SweetySayin.pdf?op=CREATE&user.name=ubuntu&namenoderpcaddress=:9000&createflag=&createparent=true&overwrite=false (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000019A4609C370>, 'Connection to ec2-3-7-42-28.ap-south-1.compute.amazonaws.com timed out. (connect timeout=None)'))
+Traceback (most recent call last):
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\connection.py", line 244, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1283, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1329, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1038, in _send_output
+    self.send(msg)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 976, in send
+    self.connect()
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\connection.py", line 179, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x0000019A4609C370>, 'Connection to ec2-3-7-42-28.ap-south-1.compute.amazonaws.com timed out. (connect timeout=None)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\requests\adapters.py", line 487, in send
+    resp = conn.urlopen(
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='ec2-3-7-42-28.ap-south-1.compute.amazonaws.com', port=9864): Max retries exceeded with url: /webhdfs/v1/cv/SweetySayin.pdf?op=CREATE&user.name=ubuntu&namenoderpcaddress=:9000&createflag=&createparent=true&overwrite=false (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000019A4609C370>, 'Connection to ec2-3-7-42-28.ap-south-1.compute.amazonaws.com timed out. (connect timeout=None)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Afitha\internpro\userinfo\register\views.py", line 284, in upload_view
+    response = requests.put(url, data=file, headers=headers)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\requests\api.py", line 130, in put
+    return request("put", url, data=data, **kwargs)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\requests\adapters.py", line 508, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='ec2-3-7-42-28.ap-south-1.compute.amazonaws.com', port=9864): Max retries exceeded with url: /webhdfs/v1/cv/SweetySayin.pdf?op=CREATE&user.name=ubuntu&namenoderpcaddress=:9000&createflag=&createparent=true&overwrite=false (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000019A4609C370>, 'Connection to ec2-3-7-42-28.ap-south-1.compute.amazonaws.com timed out. (connect timeout=None)'))
+Internal Server Error: /upload/
+Email authentication successful.
+HTTPConnectionPool(host='ec2-3-7-42-28.ap-south-1.compute.amazonaws.com', port=9864): Max retries exceeded with url: /webhdfs/v1/cv/Naif_Nizami.pdf?op=CREATE&user.name=ubuntu&namenoderpcaddress=:9000&createflag=&createparent=true&overwrite=false (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000019A45D5A350>, 'Connection to ec2-3-7-42-28.ap-south-1.compute.amazonaws.com timed out. (connect timeout=None)'))
+Traceback (most recent call last):
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\connection.py", line 244, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1283, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1329, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1038, in _send_output
+    self.send(msg)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 976, in send
+    self.connect()
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\connection.py", line 179, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x0000019A45D5A350>, 'Connection to ec2-3-7-42-28.ap-south-1.compute.amazonaws.com timed out. (connect timeout=None)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\requests\adapters.py", line 487, in send
+    resp = conn.urlopen(
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='ec2-3-7-42-28.ap-south-1.compute.amazonaws.com', port=9864): Max retries exceeded with url: /webhdfs/v1/cv/Naif_Nizami.pdf?op=CREATE&user.name=ubuntu&namenoderpcaddress=:9000&createflag=&createparent=true&overwrite=false (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000019A45D5A350>, 'Connection to ec2-3-7-42-28.ap-south-1.compute.amazonaws.com timed out. (connect timeout=None)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Afitha\internpro\userinfo\register\views.py", line 284, in upload_view
+    response = requests.put(url, data=file, headers=headers)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\requests\api.py", line 130, in put
+    return request("put", url, data=data, **kwargs)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\requests\adapters.py", line 508, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='ec2-3-7-42-28.ap-south-1.compute.amazonaws.com', port=9864): Max retries exceeded with url: /webhdfs/v1/cv/Naif_Nizami.pdf?op=CREATE&user.name=ubuntu&namenoderpcaddress=:9000&createflag=&createparent=true&overwrite=false (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000019A45D5A350>, 'Connection to ec2-3-7-42-28.ap-south-1.compute.amazonaws.com timed out. (connect timeout=None)'))
+Internal Server Error: /upload/
+Email authentication successful.
+HTTPConnectionPool(host='ec2-3-7-42-28.ap-south-1.compute.amazonaws.com', port=9864): Max retries exceeded with url: /webhdfs/v1/cv/nizam_t_c.pdf?op=CREATE&user.name=ubuntu&namenoderpcaddress=:9000&createflag=&createparent=true&overwrite=false (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000019A45D5BC40>, 'Connection to ec2-3-7-42-28.ap-south-1.compute.amazonaws.com timed out. (connect timeout=None)'))
+Traceback (most recent call last):
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\connection.py", line 244, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1283, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1329, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1038, in _send_output
+    self.send(msg)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 976, in send
+    self.connect()
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\connection.py", line 179, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x0000019A45D5BC40>, 'Connection to ec2-3-7-42-28.ap-south-1.compute.amazonaws.com timed out. (connect timeout=None)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\requests\adapters.py", line 487, in send
+    resp = conn.urlopen(
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='ec2-3-7-42-28.ap-south-1.compute.amazonaws.com', port=9864): Max retries exceeded with url: /webhdfs/v1/cv/nizam_t_c.pdf?op=CREATE&user.name=ubuntu&namenoderpcaddress=:9000&createflag=&createparent=true&overwrite=false (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000019A45D5BC40>, 'Connection to ec2-3-7-42-28.ap-south-1.compute.amazonaws.com timed out. (connect timeout=None)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Afitha\internpro\userinfo\register\views.py", line 284, in upload_view
+    response = requests.put(url, data=file, headers=headers)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\requests\api.py", line 130, in put
+    return request("put", url, data=data, **kwargs)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\requests\adapters.py", line 508, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='ec2-3-7-42-28.ap-south-1.compute.amazonaws.com', port=9864): Max retries exceeded with url: /webhdfs/v1/cv/nizam_t_c.pdf?op=CREATE&user.name=ubuntu&namenoderpcaddress=:9000&createflag=&createparent=true&overwrite=false (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000019A45D5BC40>, 'Connection to ec2-3-7-42-28.ap-south-1.compute.amazonaws.com timed out. (connect timeout=None)'))
+Internal Server Error: /upload/
+Watching for file changes with StatReloader
+Email authentication successful.
+Not Found: /favicon.ico
+Email authentication successful.
+Watching for file changes with StatReloader
+Email authentication successful.
+Watching for file changes with StatReloader
+Email authentication successful.
+Not Found: /favicon.ico
+Unauthorized: /login/
+Unauthorized: /login/
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /login/
+Watching for file changes with StatReloader
+Email authentication successful.
+Email authentication successful.
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Email authentication successful.
+Email authentication successful.
+('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+Traceback (most recent call last):
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\connection.py", line 244, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1283, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1329, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1077, in _send_output
+    self.send(chunk)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 999, in send
+    self.sock.sendall(data)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\requests\adapters.py", line 487, in send
+    resp = conn.urlopen(
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\util\retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\packages\six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\urllib3\connection.py", line 244, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1283, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1329, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1077, in _send_output
+    self.send(chunk)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 999, in send
+    self.sock.sendall(data)
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Afitha\internpro\userinfo\register\views.py", line 284, in upload_view
+    response = requests.put(url, data=file, headers=headers)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\requests\api.py", line 130, in put
+    return request("put", url, data=data, **kwargs)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\requests\adapters.py", line 502, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+Internal Server Error: /upload/
+Email authentication successful.
+Email authentication successful.
+Unauthorized: /login/
+Watching for file changes with StatReloader
+Email authentication successful.
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Bad Request: /usrreg
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+ac-90kskrr-shard-00-01.vgtdfso.mongodb.net:27017: timed out
+Traceback (most recent call last):
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\pymongo\pool.py", line 1358, in connect
+    sock = _configured_socket(self.address, self.opts)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\pymongo\pool.py", line 1052, in _configured_socket
+    sock = _create_connection(address, options)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\pymongo\pool.py", line 1036, in _create_connection
+    raise err
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\pymongo\pool.py", line 1029, in _create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Afitha\internpro\userinfo\register\views.py", line 64, in post
+    existing_user = mycol.find_one({"email": email})
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\pymongo\collection.py", line 1459, in find_one
+    for result in cursor.limit(-1):
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\pymongo\cursor.py", line 1248, in next
+    if len(self.__data) or self._refresh():
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\pymongo\cursor.py", line 1165, in _refresh
+    self.__send_message(q)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\pymongo\cursor.py", line 1052, in __send_message
+    response = client._run_operation(
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\pymongo\_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\pymongo\mongo_client.py", line 1330, in _run_operation
+    return self._retryable_read(
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\pymongo\_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\pymongo\mongo_client.py", line 1455, in _retryable_read
+    raise last_error
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\pymongo\mongo_client.py", line 1442, in _retryable_read
+    with self._socket_from_server(read_pref, server, session) as (sock_info, read_pref):
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\pymongo\mongo_client.py", line 1282, in _socket_from_server
+    with self._get_socket(server, session) as sock_info:
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\pymongo\mongo_client.py", line 1217, in _get_socket
+    with server.get_socket(handler=err_handler) as sock_info:
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\pymongo\pool.py", line 1407, in get_socket
+    sock_info = self._get_socket(handler=handler)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\pymongo\pool.py", line 1520, in _get_socket
+    sock_info = self.connect(handler=handler)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\pymongo\pool.py", line 1366, in connect
+    _raise_connection_failure(self.address, error)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\pymongo\pool.py", line 254, in _raise_connection_failure
+    raise NetworkTimeout(msg) from error
+pymongo.errors.NetworkTimeout: ac-90kskrr-shard-00-01.vgtdfso.mongodb.net:27017: timed out
+Internal Server Error: /usrreg
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /usrreg
+Bad Request: /usrreg
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /usrreg
+Bad Request: /usrreg
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Bad Request: /usrreg
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+C:\Users\Afitha\internpro\userinfo\userinfo\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\flagapi\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\manage.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+C:\Users\Afitha\internpro\userinfo\userinfo\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\userinfo\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\userinfo\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\userinfo\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Unauthorized: /login/
+This is an info log message.
+local variable 'logger' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\Afitha\internpro\userinfo\register\views.py", line 210, in mailid_auth
+    logger.info("Email authentication successful.")
+UnboundLocalError: local variable 'logger' referenced before assignment
+Internal Server Error: /mailcheck/
+This is an info log message.
+local variable 'logger' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\Afitha\internpro\userinfo\register\views.py", line 210, in mailid_auth
+    logger.info("Email authentication successful.")
+UnboundLocalError: local variable 'logger' referenced before assignment
+Internal Server Error: /mailcheck/
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /login/
+This is an info log message.
+local variable 'logger' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\Afitha\internpro\userinfo\register\views.py", line 210, in mailid_auth
+    logger.info("Email authentication successful.")
+UnboundLocalError: local variable 'logger' referenced before assignment
+Internal Server Error: /mailcheck/
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /login/
+Not Found: /mailcheck/resetpassword/
+Not Found: /mailcheck/resetpassword/
+Not Found: /mailcheck/resetpassword/
+Not Found: /mailcheck/resetpassword/
+Unauthorized: /login/
+Unauthorized: /login/
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+C:\Users\Afitha\internpro\userinfo\userinfo\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\userinfo\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\userinfo\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+C:\Users\Afitha\internpro\userinfo\userinfo\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 [('35.154.223.156', 9092) IPv4]
+Probing node bootstrap-0 broker version
+NoBrokersAvailable
+Traceback (most recent call last):
+  File "C:\Users\Afitha\internpro\userinfo\register\views.py", line 325, in upload_view
+    producer = KafkaProducer(bootstrap_servers=bootstrap_servers)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\kafka\producer\kafka.py", line 383, in __init__
+    client = self.config['kafka_client'](
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\kafka\client_async.py", line 244, in __init__
+    self.config['api_version'] = self.check_version(timeout=check_timeout)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\kafka\client_async.py", line 927, in check_version
+    raise Errors.NoBrokersAvailable()
+kafka.errors.NoBrokersAvailable: NoBrokersAvailable
+Internal Server Error: /upload/
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 [('35.154.223.156', 9092) IPv4]
+Probing node bootstrap-0 broker version
+NoBrokersAvailable
+Traceback (most recent call last):
+  File "C:\Users\Afitha\internpro\userinfo\register\views.py", line 325, in upload_view
+    producer = KafkaProducer(bootstrap_servers=bootstrap_servers)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\kafka\producer\kafka.py", line 383, in __init__
+    client = self.config['kafka_client'](
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\kafka\client_async.py", line 244, in __init__
+    self.config['api_version'] = self.check_version(timeout=check_timeout)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\kafka\client_async.py", line 927, in check_version
+    raise Errors.NoBrokersAvailable()
+kafka.errors.NoBrokersAvailable: NoBrokersAvailable
+Internal Server Error: /upload/
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 [('35.154.223.156', 9092) IPv4]
+Probing node bootstrap-0 broker version
+NoBrokersAvailable
+Traceback (most recent call last):
+  File "C:\Users\Afitha\internpro\userinfo\register\views.py", line 325, in upload_view
+    producer = KafkaProducer(bootstrap_servers=bootstrap_servers)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\kafka\producer\kafka.py", line 383, in __init__
+    client = self.config['kafka_client'](
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\kafka\client_async.py", line 244, in __init__
+    self.config['api_version'] = self.check_version(timeout=check_timeout)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\kafka\client_async.py", line 927, in check_version
+    raise Errors.NoBrokersAvailable()
+kafka.errors.NoBrokersAvailable: NoBrokersAvailable
+Internal Server Error: /upload/
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 [('35.154.223.156', 9092) IPv4]
+Probing node bootstrap-0 broker version
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: Connection complete.
+Broker version identified as 2.6.0
+Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+Object of type ObjectId is not JSON serializable
+Traceback (most recent call last):
+  File "C:\Users\Afitha\internpro\userinfo\register\views.py", line 347, in upload_view
+    kafka_upload(email,mylist)
+  File "C:\Users\Afitha\internpro\userinfo\register\views.py", line 298, in kafka_upload
+    message = json.dumps(mylist).encode('utf-8')  # Encode the message as bytes
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ObjectId is not JSON serializable
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connected> [IPv4 ('35.154.223.156', 9092)]>: Closing connection. 
+Internal Server Error: /upload/
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 [('35.154.223.156', 9092) IPv4]
+Probing node bootstrap-0 broker version
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: Connection complete.
+Broker version identified as 2.6.0
+Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+Object of type ObjectId is not JSON serializable
+Traceback (most recent call last):
+  File "C:\Users\Afitha\internpro\userinfo\register\views.py", line 346, in upload_view
+    kafka_upload(email,mylist)
+  File "C:\Users\Afitha\internpro\userinfo\register\views.py", line 298, in kafka_upload
+    message = json.dumps(mylist).encode('utf-8')  # Encode the message as bytes
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ObjectId is not JSON serializable
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connected> [IPv4 ('35.154.223.156', 9092)]>: Closing connection. 
+Internal Server Error: /upload/
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 [('35.154.223.156', 9092) IPv4]
+Probing node bootstrap-0 broker version
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: Connection complete.
+Broker version identified as 2.6.0
+Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+Object of type ObjectId is not JSON serializable
+Traceback (most recent call last):
+  File "C:\Users\Afitha\internpro\userinfo\register\views.py", line 353, in upload_view
+    kafka_upload(email,mylist)
+  File "C:\Users\Afitha\internpro\userinfo\register\views.py", line 300, in kafka_upload
+    message = json.dumps(mylist).encode('utf-8')  # Encode the message as bytes
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ObjectId is not JSON serializable
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connected> [IPv4 ('35.154.223.156', 9092)]>: Closing connection. 
+Internal Server Error: /upload/
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 [('35.154.223.156', 9092) IPv4]
+Probing node bootstrap-0 broker version
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: Connection complete.
+Broker version identified as 2.6.0
+Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+Object of type ObjectId is not JSON serializable
+Traceback (most recent call last):
+  File "C:\Users\Afitha\internpro\userinfo\register\views.py", line 348, in upload_view
+    kafka_upload(email,mylist)
+  File "C:\Users\Afitha\internpro\userinfo\register\views.py", line 301, in kafka_upload
+    message = json.dumps(mylist).encode('utf-8')  # Encode the message as bytes
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ObjectId is not JSON serializable
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connected> [IPv4 ('35.154.223.156', 9092)]>: Closing connection. 
+Internal Server Error: /upload/
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /usrreg
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv6 ('64:ff9b::239a:df9c', 9092, 0, 0)]>: connecting to ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 [('64:ff9b::239a:df9c', 9092, 0, 0) IPv6]
+Probing node bootstrap-0 broker version
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv6 ('64:ff9b::239a:df9c', 9092, 0, 0)]>: Connection complete.
+Broker version identified as 2.6.0
+Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+Object of type ObjectId is not JSON serializable
+Traceback (most recent call last):
+  File "C:\Users\Afitha\internpro\userinfo\register\views.py", line 361, in upload_view
+    kafka_upload(email,mylist)
+  File "C:\Users\Afitha\internpro\userinfo\register\views.py", line 301, in kafka_upload
+    message = json.dumps(mylist).encode('utf-8')  # Encode the message as bytes
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ObjectId is not JSON serializable
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connected> [IPv6 ('64:ff9b::239a:df9c', 9092, 0, 0)]>: Closing connection. 
+Internal Server Error: /upload/
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 [('35.154.223.156', 9092) IPv4]
+Probing node bootstrap-0 broker version
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: Connection complete.
+Broker version identified as 2.6.0
+Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+Object of type ObjectId is not JSON serializable
+Traceback (most recent call last):
+  File "C:\Users\Afitha\internpro\userinfo\register\views.py", line 361, in upload_view
+    re = kafka_upload(email,mylist)
+  File "C:\Users\Afitha\internpro\userinfo\register\views.py", line 301, in kafka_upload
+    message = json.dumps(mylist).encode('utf-8')  # Encode the message as bytes
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ObjectId is not JSON serializable
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connected> [IPv4 ('35.154.223.156', 9092)]>: Closing connection. 
+Internal Server Error: /upload/
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 [('35.154.223.156', 9092) IPv4]
+Probing node bootstrap-0 broker version
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: Connection complete.
+Broker version identified as 2.6.0
+Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+Object of type ObjectId is not JSON serializable
+Traceback (most recent call last):
+  File "C:\Users\Afitha\internpro\userinfo\register\views.py", line 361, in upload_view
+    re = kafka_upload(email,mylist)
+  File "C:\Users\Afitha\internpro\userinfo\register\views.py", line 301, in kafka_upload
+    message = json.dumps(mylist).encode('utf-8')  # Encode the message as bytes
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ObjectId is not JSON serializable
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connected> [IPv4 ('35.154.223.156', 9092)]>: Closing connection. 
+Internal Server Error: /upload/
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 [('35.154.223.156', 9092) IPv4]
+Probing node bootstrap-0 broker version
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: Connection complete.
+Broker version identified as 2.6.0
+Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+Object of type ObjectId is not JSON serializable
+Traceback (most recent call last):
+  File "C:\Users\Afitha\internpro\userinfo\register\views.py", line 360, in upload_view
+    kafka_upload(email,mylist)
+  File "C:\Users\Afitha\internpro\userinfo\register\views.py", line 299, in kafka_upload
+    message = json.dumps(mylist).encode('utf-8')  # Encode the message as bytes
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ObjectId is not JSON serializable
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connected> [IPv4 ('35.154.223.156', 9092)]>: Closing connection. 
+Internal Server Error: /upload/
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /usrreg
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 [('35.154.223.156', 9092) IPv4]
+Probing node bootstrap-0 broker version
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: Connection complete.
+Broker version identified as 2.6.0
+Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+Object of type ObjectId is not JSON serializable
+Traceback (most recent call last):
+  File "C:\Users\Afitha\internpro\userinfo\register\views.py", line 360, in upload_view
+    kafka_upload(email,mylist)
+  File "C:\Users\Afitha\internpro\userinfo\register\views.py", line 299, in kafka_upload
+    message = json.dumps(mylist).encode('utf-8')  # Encode the message as bytes
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ObjectId is not JSON serializable
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connected> [IPv4 ('35.154.223.156', 9092)]>: Closing connection. 
+Internal Server Error: /upload/
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 [('35.154.223.156', 9092) IPv4]
+Probing node bootstrap-0 broker version
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: Connection complete.
+Broker version identified as 2.6.0
+Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+Object of type ObjectId is not JSON serializable
+Traceback (most recent call last):
+  File "C:\Users\Afitha\internpro\userinfo\register\views.py", line 360, in upload_view
+    kafka_upload(email,mylist)
+  File "C:\Users\Afitha\internpro\userinfo\register\views.py", line 299, in kafka_upload
+    message = json.dumps(mylist).encode('utf-8')  # Encode the message as bytes
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ObjectId is not JSON serializable
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connected> [IPv4 ('35.154.223.156', 9092)]>: Closing connection. 
+Internal Server Error: /upload/
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: upload_resume() takes no arguments
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: upload_resume() takes no arguments
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: upload_resume.__init__() takes 1 positional argument but 2 were given
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: upload_resume.__init__() takes 0 positional arguments but 2 were given
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: upload_resume() takes no arguments
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: upload_resume() takes no arguments
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Method Not Allowed (POST): /upload/
+Method Not Allowed: /upload/
+Method Not Allowed (POST): /upload/
+Method Not Allowed: /upload/
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\urls.py changed, reloading.
+Watching for file changes with StatReloader
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 [('35.154.223.156', 9092) IPv4]
+Probing node bootstrap-0 broker version
+NoBrokersAvailable
+Traceback (most recent call last):
+  File "C:\Users\Afitha\internpro\userinfo\register\views.py", line 353, in upload_view
+    kafka_upload(email,mylist)
+  File "C:\Users\Afitha\internpro\userinfo\register\views.py", line 298, in kafka_upload
+    producer = KafkaProducer(bootstrap_servers=bootstrap_servers)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\kafka\producer\kafka.py", line 383, in __init__
+    client = self.config['kafka_client'](
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\kafka\client_async.py", line 244, in __init__
+    self.config['api_version'] = self.check_version(timeout=check_timeout)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\kafka\client_async.py", line 927, in check_version
+    raise Errors.NoBrokersAvailable()
+kafka.errors.NoBrokersAvailable: NoBrokersAvailable
+Internal Server Error: /upload/
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 [('35.154.223.156', 9092) IPv4]
+Probing node bootstrap-0 broker version
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: Connection complete.
+Broker version identified as 2.6.0
+Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+Object of type ObjectId is not JSON serializable
+Traceback (most recent call last):
+  File "C:\Users\Afitha\internpro\userinfo\register\views.py", line 353, in upload_view
+    kafka_upload(email,mylist)
+  File "C:\Users\Afitha\internpro\userinfo\register\views.py", line 300, in kafka_upload
+    message = json.dumps(mylist).encode('utf-8')  # Encode the message as bytes
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Afitha\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ObjectId is not JSON serializable
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connected> [IPv4 ('35.154.223.156', 9092)]>: Closing connection. 
+Internal Server Error: /upload/
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 [('35.154.223.156', 9092) IPv4]
+Probing node bootstrap-0 broker version
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: Connection complete.
+Broker version identified as 2.6.0
+Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connected> [IPv4 ('35.154.223.156', 9092)]>: Closing connection. 
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 [('35.154.223.156', 9092) IPv4]
+Probing node bootstrap-0 broker version
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: Connection complete.
+Broker version identified as 2.6.0
+Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connected> [IPv4 ('35.154.223.156', 9092)]>: Closing connection. 
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 [('35.154.223.156', 9092) IPv4]
+Probing node bootstrap-0 broker version
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 [('35.154.223.156', 9092) IPv4]
+Probing node bootstrap-0 broker version
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 [('35.154.223.156', 9092) IPv4]
+Probing node bootstrap-0 broker version
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 [('35.154.223.156', 9092) IPv4]
+Probing node bootstrap-0 broker version
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 [('35.154.223.156', 9092) IPv4]
+Probing node bootstrap-0 broker version
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 [('35.154.223.156', 9092) IPv4]
+Probing node bootstrap-0 broker version
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 [('35.154.223.156', 9092) IPv4]
+Probing node bootstrap-0 broker version
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 [('35.154.223.156', 9092) IPv4]
+Probing node bootstrap-0 broker version
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: Connection complete.
+Broker version identified as 2.6.0
+Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connected> [IPv4 ('35.154.223.156', 9092)]>: Closing connection. 
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+sucessfully display the page
+Successfully registered
+ArunJoy (1).pdf added to HDFS
+Data upload initiated
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 [('35.154.223.156', 9092) IPv4]
+Probing node bootstrap-0 broker version
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: Connection complete.
+Broker version identified as 2.6.0
+Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+Failed to upload data to Kafka. Error: Object of type ObjectId is not JSON serializable
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view register.views.upload_view didn't return an HttpResponse object. It returned None instead.
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connected> [IPv4 ('35.154.223.156', 9092)]>: Closing connection. 
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Afitha's Resume (2).pdf added to HDFS
+Data upload initiated
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 [('35.154.223.156', 9092) IPv4]
+Probing node bootstrap-0 broker version
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view register.views.upload_view didn't return an HttpResponse object. It returned None instead.
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: Connection complete.
+Broker version identified as 2.6.0
+Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+Failed to upload data to Kafka. Error: 
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connected> [IPv4 ('35.154.223.156', 9092)]>: Closing connection. 
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Athira K Prasad official.pdf added to HDFS
+Data upload initiated
+name 'st' is not defined
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 [('35.154.223.156', 9092) IPv4]
+Probing node bootstrap-0 broker version
+Internal Server Error: /upload/
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: Connection complete.
+Broker version identified as 2.6.0
+Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+Failed to upload data to Kafka. Error: Object of type ObjectId is not JSON serializable
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connected> [IPv4 ('35.154.223.156', 9092)]>: Closing connection. 
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /usrreg
+GowriLalu_Resume_2023.pdf added to HDFS
+Data upload initiated
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 [('35.154.223.156', 9092) IPv4]
+Probing node bootstrap-0 broker version
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: Connection complete.
+Broker version identified as 2.6.0
+Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+Failed to upload data to Kafka. Error: Object of type ObjectId is not JSON serializable
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connected> [IPv4 ('35.154.223.156', 9092)]>: Closing connection. 
+sucessfully display the page
+Watching for file changes with StatReloader
+sucessfully display the page
+Successfully registered
+GowriLalu_Resume_2023.pdf added to HDFS
+Data upload initiated
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 [('35.154.223.156', 9092) IPv4]
+Probing node bootstrap-0 broker version
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: Connection complete.
+Broker version identified as 2.6.0
+Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+Failed to upload data to Kafka. Error: Object of type ObjectId is not JSON serializable
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connected> [IPv4 ('35.154.223.156', 9092)]>: Closing connection. 
+Jeena Babu Resume.pdf added to HDFS
+Data upload initiated
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 [('35.154.223.156', 9092) IPv4]
+Probing node bootstrap-0 broker version
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: Connection complete.
+Broker version identified as 2.6.0
+Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+Failed to upload data to Kafka. Error: Object of type ObjectId is not JSON serializable
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connected> [IPv4 ('35.154.223.156', 9092)]>: Closing connection. 
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+ArunJoy (1).pdf added to HDFS
+Data upload initiated
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 [('35.154.223.156', 9092) IPv4]
+Probing node bootstrap-0 broker version
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: Connection complete.
+Broker version identified as 2.6.0
+Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+Failed to upload data to Kafka. Error: Object of type ObjectId is not JSON serializable
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connected> [IPv4 ('35.154.223.156', 9092)]>: Closing connection. 
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+keerthi k m .pdf added to HDFS
+Data upload initiated
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 [('35.154.223.156', 9092) IPv4]
+Probing node bootstrap-0 broker version
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: Connection complete.
+Broker version identified as 2.6.0
+Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+Failed to upload data to Kafka. Error: Object of type ObjectId is not JSON serializable
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connected> [IPv4 ('35.154.223.156', 9092)]>: Closing connection. 
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+anuvind resume.pdf added to HDFS
+name 'my' is not defined
+Internal Server Error: /upload/
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+sucessfully display the page
+Successfully registered
+Laya Augustine Resume.pdf added to HDFS
+Data upload initiated
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 [('35.154.223.156', 9092) IPv4]
+Probing node bootstrap-0 broker version
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: Connection complete.
+Broker version identified as 2.6.0
+Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+Failed to upload data to Kafka. Error: Object of type ObjectId is not JSON serializable
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connected> [IPv4 ('35.154.223.156', 9092)]>: Closing connection. 
+sucessfully display the page
+Successfully registered
+Jeena Babu Resume.pdf added to HDFS
+Data upload initiated
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 [('35.154.223.156', 9092) IPv4]
+Probing node bootstrap-0 broker version
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: Connection complete.
+Broker version identified as 2.6.0
+Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+Failed to upload data to Kafka. Error: Object of type ObjectId is not JSON serializable
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connected> [IPv4 ('35.154.223.156', 9092)]>: Closing connection. 
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+sucessfully display the page
+Successfully registered
+Shaheeb Data analyst.pdf added to HDFS
+document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+Internal Server Error: /upload/
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /usrreg
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 [('35.154.223.156', 9092) IPv4]
+Probing node bootstrap-0 broker version
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: Connection complete.
+Broker version identified as 2.6.0
+Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connected> [IPv4 ('35.154.223.156', 9092)]>: Closing connection. 
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+sucessfully display the page
+Successfully registered
+GowriLalu_Resume_2023.pdf added to HDFS
+Data upload initiated
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+sucessfully display the page
+Successfully registered
+Jenicks_CV(1).pdf added to HDFS
+Data upload initiated
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 [('35.154.223.156', 9092) IPv4]
+Probing node bootstrap-0 broker version
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: Connection complete.
+Broker version identified as 2.6.0
+Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+Failed to upload data to Kafka. Error: Object of type ObjectId is not JSON serializable
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connected> [IPv4 ('35.154.223.156', 9092)]>: Closing connection. 
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+anuvind resume.pdf added to HDFS
+Data upload initiated
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 [('35.154.223.156', 9092) IPv4]
+Probing node bootstrap-0 broker version
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: Connection complete.
+Broker version identified as 2.6.0
+Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+Failed to upload data to Kafka. Error: Object of type ObjectId is not JSON serializable
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connected> [IPv4 ('35.154.223.156', 9092)]>: Closing connection. 
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /usrreg
+anuvind resume.pdf added to HDFS
+Data upload initiated
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 [('35.154.223.156', 9092) IPv4]
+Probing node bootstrap-0 broker version
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: Connection complete.
+Broker version identified as 2.6.0
+Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+Failed to upload data to Kafka. Error: 
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connected> [IPv4 ('35.154.223.156', 9092)]>: Closing connection. 
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+anuvind resume.pdf added to HDFS
+Data upload initiated
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 [('35.154.223.156', 9092) IPv4]
+Probing node bootstrap-0 broker version
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: Connection complete.
+Broker version identified as 2.6.0
+Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+<BrokerConnection node_id=0 host=35.154.223.156:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to 35.154.223.156:9092 [('35.154.223.156', 9092) IPv4]
+<BrokerConnection node_id=0 host=35.154.223.156:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: Connection complete.
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connected> [IPv4 ('35.154.223.156', 9092)]>: Closing connection. 
+Message produced successfully
+Failed to upload data to Kafka. Error: 'KafkaProducer' object has no attribute 'get'
+<BrokerConnection node_id=0 host=35.154.223.156:9092 <connected> [IPv4 ('35.154.223.156', 9092)]>: Closing connection. 
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Laya Augustine Resume.pdf added to HDFS
+Data upload initiated
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 [('35.154.223.156', 9092) IPv4]
+Probing node bootstrap-0 broker version
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: Connection complete.
+Broker version identified as 2.6.0
+Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+<BrokerConnection node_id=0 host=35.154.223.156:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to 35.154.223.156:9092 [('35.154.223.156', 9092) IPv4]
+<BrokerConnection node_id=0 host=35.154.223.156:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: Connection complete.
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connected> [IPv4 ('35.154.223.156', 9092)]>: Closing connection. 
+Message produced successfully
+Failed to upload data to Kafka. Error: 'KafkaProducer' object has no attribute 'get'
+<BrokerConnection node_id=0 host=35.154.223.156:9092 <connected> [IPv4 ('35.154.223.156', 9092)]>: Closing connection. 
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+sucessfully display the page
+Not Found: /favicon.ico
+Successfully registered
+Laya Augustine Resume.pdf added to HDFS
+Data upload initiated
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 [('35.154.223.156', 9092) IPv4]
+Probing node bootstrap-0 broker version
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: Connection complete.
+Broker version identified as 2.6.0
+Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+<BrokerConnection node_id=0 host=35.154.223.156:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to 35.154.223.156:9092 [('35.154.223.156', 9092) IPv4]
+<BrokerConnection node_id=0 host=35.154.223.156:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: Connection complete.
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connected> [IPv4 ('35.154.223.156', 9092)]>: Closing connection. 
+Message produced successfully
+Failed to upload data to Kafka. Error: 'KafkaProducer' object has no attribute 'error'
+<BrokerConnection node_id=0 host=35.154.223.156:9092 <connected> [IPv4 ('35.154.223.156', 9092)]>: Closing connection. 
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+sucessfully display the page
+Successfully registered
+Shaheeb Data analyst.pdf added to HDFS
+Data upload initiated
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 [('35.154.223.156', 9092) IPv4]
+Probing node bootstrap-0 broker version
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: Connection complete.
+Broker version identified as 2.6.0
+Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+<BrokerConnection node_id=0 host=35.154.223.156:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to 35.154.223.156:9092 [('35.154.223.156', 9092) IPv4]
+<BrokerConnection node_id=0 host=35.154.223.156:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: Connection complete.
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connected> [IPv4 ('35.154.223.156', 9092)]>: Closing connection. 
+Message produced successfully
+Data uploaded to Kafka successfully!
+<BrokerConnection node_id=0 host=35.154.223.156:9092 <connected> [IPv4 ('35.154.223.156', 9092)]>: Closing connection. 
+sucessfully display the page
+Successfully registered
+GowriLalu_Resume_2023.pdf added to HDFS
+Data upload initiated
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 [('35.154.223.156', 9092) IPv4]
+Probing node bootstrap-0 broker version
+Failed to upload data to Kafka. Error: NoBrokersAvailable
+Bad Request: /usrreg
+Jenicks_CV(1).pdf added to HDFS
+Data upload initiated
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 [('35.154.223.156', 9092) IPv4]
+Probing node bootstrap-0 broker version
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: Connection complete.
+Broker version identified as 2.6.0
+Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+<BrokerConnection node_id=0 host=35.154.223.156:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: connecting to 35.154.223.156:9092 [('35.154.223.156', 9092) IPv4]
+<BrokerConnection node_id=0 host=35.154.223.156:9092 <connecting> [IPv4 ('35.154.223.156', 9092)]>: Connection complete.
+<BrokerConnection node_id=bootstrap-0 host=ec2-35-154-223-156.ap-south-1.compute.amazonaws.com:9092 <connected> [IPv4 ('35.154.223.156', 9092)]>: Closing connection. 
+Message produced successfully
+Data uploaded to Kafka successfully!
+<BrokerConnection node_id=0 host=35.154.223.156:9092 <connected> [IPv4 ('35.154.223.156', 9092)]>: Closing connection. 
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+C:\Users\Afitha\internpro\userinfo\userinfo\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\userinfo\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\userinfo\settings.py changed, reloading.
+Watching for file changes with StatReloader
+sucessfully display the page
+Not Found: /favicon.ico
+sucessfully display the page
+Not Found: /favicon.ico
+Successfully registered
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\apiviews\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\flagapi\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\userinfo\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\userinfo\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\Afitha\Envs\internships\lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+C:\Users\Afitha\internpro\userinfo\userinfo\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\userinfo\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\userinfo\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\userinfo\settings.py changed, reloading.
+Watching for file changes with StatReloader
+sucessfully display the page
+Not Found: /favicon.ico
+Successfully registered
+sucessfully display the page
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+sucessfully display the page
+Not Found: /favicon.ico
+sucessfully display the page
+Successfully registered
+C:\Users\Afitha\internpro\userinfo\apiviews\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Afitha\internpro\userinfo\apiviews\views.py changed, reloading.
+Watching for file changes with StatReloader
+sucessfully display the page
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+sucessfully display the page
+Not Found: /favicon.ico
+Successfully registered
+Failed to parse: http:// localhost:9864/webhdfs/v1/cv/afitharesum.pdf?op=CREATE&user.name=ubuntu&namenoderpcaddress=localhost:9000&createflag=&createparent=true&overwrite=true
+Internal Server Error: /upload/
+Bad Request: /usrreg

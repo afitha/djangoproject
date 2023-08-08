@@ -1,0 +1,34 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upload File</title>
+  <link rel="stylesheet" href="{%static 'css/upstyles.css' %}" />
+  </head>
+  <body>
+    <h1><center>Upload a File</h1>
+    <form action="/upload/" method="POST" enctype="multipart/form-data">
+      {% csrf_token %}
+      <p>
+        <label for="emailid">Email:</label>
+        <input type="email" id="emailid" name="emailid" value={{ email }} readonly>
+      </p>
+      <p>
+        <label for="json_file">Choose a file:</label>
+        <input type="file" name="json_file" id="json_file">
+      </p>
+      <input type="submit" value="Upload">
+      
+    </form>
+    
+    
+  </body>
+  </html>
+  
+  
+  
+  
